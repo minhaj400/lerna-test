@@ -1,13 +1,13 @@
 {
   "name": "@monorepo/api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "this is a advanced complicated package I hope to be",
   "license": "MIT",
   "author": "minhaj",
   "type": "module",
   "main": "index.js",
   "dependencies": {
-    "@monorepo/utils": "1.0.0"
+    "@monorepo/utils": "^0.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
