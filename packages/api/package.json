@@ -6,6 +6,9 @@
   "author": "minhaj",
   "type": "module",
   "main": "index.js",
+  "dependencies": {
+    "@monorepo/utils": "1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

@@ -1,3 +1,3 @@
-export default function () { 
-    console.log("Api func of @monorepo/api"); 
-};
+import { greet } from "@monorepo/utils"
+
+console.log(greet("World"))
