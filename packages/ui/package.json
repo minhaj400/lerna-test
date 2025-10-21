@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/utils",
+  "name": "@monorepo/ui",
   "version": "0.1.0",
   "description": "this is a advanced complicated package I hope to be",
   "license": "MIT",
@@ -9,5 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "5cd3108f176e7bd237d9d7a7b94aa678045ca99d"
+  "gitHead": "5cd3108f176e7bd237d9d7a7b94aa678045ca99d",
+  "dependencies": {
+    "react": "^19.2.0",
+    "@monorepo/shared": "^0.1.0"
+  }
 }
