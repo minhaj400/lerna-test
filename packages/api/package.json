@@ -7,7 +7,8 @@
   "type": "module",
   "main": "index.js",
   "dependencies": {
-    "@monorepo/utils": "^0.1.0"
+    "@monorepo/shared": "^0.1.0",
+    "express": "^5.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

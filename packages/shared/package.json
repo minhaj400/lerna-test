@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/shared",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/minhaj400/lerna-test#readme",
+  "bugs": {
+    "url": "https://github.com/minhaj400/lerna-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhaj400/lerna-test.git"
+  },
+  "license": "ISC",
+  "author": "Minhaj <mdminhajgdr@gmail.com>",
+  "main": "lib/shared.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/shared.test.js"
+  }
+}
